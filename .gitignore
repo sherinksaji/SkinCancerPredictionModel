@@ -1,0 +1,11 @@
+/HAM10000_images/
+/test/
+/train/
+/valid/
+/archive.zip
+/HAM10000_metadata.csv
+/hmnist_28_28_L.csv
+/hmnist_28_28_RGB.csv
+/hmnist_8_8_L.csv
+/hmnist_8_8_RGB.csv
+
