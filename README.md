@@ -15,7 +15,7 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 ## Model Architecture
 
-
+![alt text](https://github.com/sherinksaji/SkinCancerPredictionModel/blob/main/model_architecture.png)
 
 
 
