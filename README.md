@@ -24,6 +24,9 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 •	Model's inputs : jpeg image of the skin lesion of concern and user input for the lesion's age, sex, and location
 
 •	Model output: label of 0 or 1, indicating whether a person has healthy skin or is at the onset of skin cancer. 
+  - '0' means malignancy of melanoma
+  - '1' means benign of melanoma
+
 ## Table Of Contents
 
 - Project Notebook:
