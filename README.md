@@ -4,7 +4,39 @@ Detection of Melanoma via Skin Lesion Images (Theory and Practice of Deep Learni
 
 
 
+## Run Locally
 
+Clone the project
+
+```bash
+    git clone https://github.com/sherinksaji/SkinCancerPredictionModel.git
+```
+
+Download the dataset from Kaggle
+
+```bash
+    https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+```
+
+Add channels on conda
+
+```bash
+    conda config --add channels pytorch
+    conda config --add channels conda-forge
+    conda config --add channels nvidia
+```
+
+Adjust Repository Priorities to allow packages from lower-priority channels when necessary
+
+```bash
+    conda config --set channel_priority flexible
+```
+
+Create new conda environment from requirements.txt
+
+```bash
+    conda create --name dl_test --file requirements.txt
+```
 
 
 ## Datasets Utilized
@@ -21,7 +53,7 @@ https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 ## Model Inputs and Outputs
 
-•	Model's inputs : jpeg image of the skin lesion of concern and user input for the lesion's age, sex, and location
+•	Model's inputs : png image of the skin lesion of concern
 
 •	Model output: label of 0 or 1, indicating whether a person has healthy skin or is at the onset of skin cancer. 
   - '0' means malignancy of melanoma
