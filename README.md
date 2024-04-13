@@ -132,6 +132,18 @@ The main packages used are:
 
 - mkl - Intel Math Kernel Library, highly optimized for mathematical operations on Intel architectures.
 
+## Pre-trained models
+- Please download the checkpointed models from [Pre-trained Models](https://drive.google.com/file/d/1OOjf0VoTy8N9T957SNsyGATXpWvXESKy/view?usp=sharing).
+- To make predictions on fine-tuned model e.g. 50th epoch model.
+
+  ```bash
+    combined_model = CombinedModel().to(device)
+    prune.l1_unstructured(combined_model.classification_head.dense1, name='weight', amount=0.2)  # Reapply pruning
+    combined_model.load_state_dict(torch.load(os.path.join('models', f'combined_model_epoch_50.pth')))
+  ```
+
+
+
 ## Results
 
 The model trained achieved an F1-score of 94%; recall of 97%; accuracy of 90% and precision of 91% on evaluation dataset.
