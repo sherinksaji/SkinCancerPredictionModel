@@ -147,3 +147,8 @@ The main packages used are:
 ## Results
 
 The model trained achieved an F1-score of 94%; recall of 97%; accuracy of 90% and precision of 91% on evaluation dataset.
+
+## View code
+
+Please click on the link below to view the Jupyter notebook.
+![alt text](https://nbviewer.org/github/sherinksaji/SkinCancerPredictionModel/blob/main/Deep%20Learning%20Project.ipynb)
