@@ -150,5 +150,5 @@ The model trained achieved an F1-score of 94%; recall of 97%; accuracy of 90% an
 
 ## View code
 
-Please click on the link below to view the Jupyter notebook.
-![alt text](https://nbviewer.org/github/sherinksaji/SkinCancerPredictionModel/blob/main/Deep%20Learning%20Project.ipynb)
+Please click on the link below to view the Jupyter notebook.  
+https://nbviewer.org/github/sherinksaji/SkinCancerPredictionModel/blob/main/Deep%20Learning%20Project.ipynb
